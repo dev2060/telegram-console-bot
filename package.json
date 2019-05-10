@@ -1,0 +1,43 @@
+{
+  "name": "console-telegram-bot",
+  "version": "1.0.10",
+  "description": "Telegram Bot",
+  "license": "MIT",
+  "author": "Vitali Grabovski <vetal2060@gmail.com> (https://MY_URL_HERE)",
+  "homepage": "https://MY_URL_HERE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dev2060/telegram-console-bot.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint *.js test/*.js",
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "techinasia-base",
+    "env": {
+      "mocha": true,
+      "node": true
+    },
+    "rules": {
+      "no-unused-expressions": 0,
+      "func-names": 0,
+      "strict": 0,
+      "max-len": 0
+    }
+  },
+  "devDependencies": {
+    "chai": "*",
+    "chai-as-promised": "*",
+    "eslint": "^5.0.1",
+    "eslint-config-techinasia-base": "*",
+    "eslint-plugin-import": "^2.13.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "moment": "~> 2.19.3",
+    "request": "^2.87.0",
+    "request-promise": "*"
+  }
+}

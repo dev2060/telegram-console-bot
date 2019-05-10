@@ -1,0 +1,14 @@
+# Files
+bot_token.js
+deploy.sh
+
+# IDE
+.idea
+
+# Build
+node_modules
+
+# Zip
+*.zip
+
+
